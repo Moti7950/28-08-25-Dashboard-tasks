@@ -1,13 +1,16 @@
-export default function Header(props:{statusNow:boolean, setstatus:Function}) {
+export default function Header(props: {
+  statusNow: boolean;
+  setstatus: Function;
+}) {
   return (
     <>
-      <section id="Header-controler" >
+      <section id="Header-controler">
         <h1>Campus Club Dashboard</h1>
         <input
           id="header-checkbox"
           type="checkbox"
           onClick={() => {
-            props.setstatus(prev => !prev)
+            props.setstatus((prev: boolean) => !prev);
           }}
         />
         <label htmlFor="header-checkbox">Show only active members</label>
