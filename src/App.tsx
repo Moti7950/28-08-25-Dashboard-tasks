@@ -12,11 +12,12 @@ import "./assets/style/Members.css"
 import { useState } from "react"
 
 function App() {
-  const [statusNow, setstatus] = useState<boolean>(true)
+  const [statusNow, setStatus] = useState<boolean>(true)
+  const [modeCard ,setList] = useState<boolean>(true)
   return (
     <>
-     <Header statusNow={statusNow} setstatus={setstatus}/>
-     <Main statusNow ={statusNow}/>
+     <Header statusNow={statusNow} setStatus={setStatus} modeCard={modeCard} setList={setList}/>
+     <Main statusNow ={statusNow} modeCard={modeCard}/>
      <Footer/>
     </>
   )

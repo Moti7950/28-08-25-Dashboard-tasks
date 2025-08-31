@@ -1,9 +1,10 @@
 import Members from "./Members.tsx";
 
-export default function Main(props:{statusNow:boolean}) {
+export default function Main(props:{statusNow:boolean, modeCard:boolean}) {
   return (
     <>
-      <section id="members-controler">
+      <section id="members-controler"  style={{ flexDirection: props.modeCard ? "row" : "column" }}>
+
         <Members
           userInitials="AR"
           name="Alex Rivera"

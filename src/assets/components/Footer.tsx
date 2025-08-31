@@ -3,7 +3,7 @@ export default function Footer()
     return(
     <>
     <section id="Footer-controler">
-        <h1>Tasks</h1>
+        <h3>Tasks</h3>
     
     </section>
     </>)

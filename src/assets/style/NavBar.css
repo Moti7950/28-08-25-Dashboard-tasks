@@ -1,7 +1,28 @@
-#Header-controler{
-    background-color: aquamarine;
+#Header-controler {
+  text-align: center;
 }
 
-#Header-controler h1{
-    background-color: blue;
+#Header-controler {
+    display: flex;
+    gap: 1rem;
+    align-content: center;
+    margin-bottom: 1rem;
+    
+}
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#header-List {
+  border-radius: 10%;
+  width: 5vw;
+  height: 5vh;
+}
+
+#header-Grid {
+  border-radius: 10%;
+  width: 5vw;
+  height: 5vh;
 }
