@@ -1,12 +1,12 @@
 main{
     width: 80vw;
     height: 80vh;
-    background-color: bisque;
+    /* background-color: bisque; */
 }
 
 #members-controler{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
 }

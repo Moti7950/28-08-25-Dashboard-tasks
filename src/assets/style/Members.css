@@ -1,9 +1,26 @@
 #card-controler{
-    display: block;
-    background-color: blueviolet;
-    border-radius: 20px;
-    border: 3px solid black;
-    
+    display: flex;
+    align-content: center;
+    gap: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: #fff;
 }
 
+#cart-avatar{
+    width: 48px;
+    height: 48px;
+    background-color: aqua;
+    font-weight: 700;
+    border-radius: 50%;
+    display: flex;
+    align-content: center;
+    text-align: center; 
+}
 
+#card-button{
+    width: 10vw;
+    height: 5vh;
+    border-radius: 6px;
+    ba
+}

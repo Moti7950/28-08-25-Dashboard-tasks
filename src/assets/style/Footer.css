@@ -1,5 +1,13 @@
-#Footer-controler{
-     width: 20vw;
-    height: 20vh;
-    background-color: blueviolet;
+#Footer-controler {
+  width: 100vw;
+  height: 20vh;
+  background-color: #fff;
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  margin-top: 1rem;
+  
+}
+
+h1 {
 }
